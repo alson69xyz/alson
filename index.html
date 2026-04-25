@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alson Vault | Premium Streetwear Nepal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #080808; color: #ffffff; scroll-behavior: smooth; }
+        .vault-border { border: 1px solid rgba(255, 255, 255, 0.1); }
+        .esewa-green { color: #60bb46; }
+        .esewa-bg { background-color: #60bb46; }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 bg-black/90 backdrop-blur-md flex justify-between items-center px-6 md:px-12 py-5 border-b border-white/10">
+        <div class="text-xl md:text-2xl font-bold tracking-tighter uppercase">Alson <span class="text-zinc-500">Vault</span></div>
+        <ul class="hidden md:flex space-x-8 text-[10px] uppercase tracking-widest font-bold">
+            <li><a href="#" class="hover:text-zinc-400 transition">Shop</a></li>
+            <li><a href="#payment" class="hover:text-zinc-400 transition">Payment</a></li>
+            <li><a href="#contact" class="hover:text-zinc-400 transition">Contact</a></li>
+        </ul>
+        <div class="text-[10px] font-bold tracking-widest uppercase px-4 py-2 border border-white/20">NPR (Rs.)</div>
+    </nav>
+
+    <header class="relative h-[90vh] flex items-center justify-center text-center px-4 overflow-hidden">
+        <div class="z-10 mt-20">
+            <span class="text-zinc-500 text-xs uppercase tracking-[0.5em] mb-4 block">Based in Nepal</span>
+            <h1 class="text-6xl md:text-9xl font-bold mb-6 tracking-tighter italic">ALSON VAULT</h1>
+            <p class="text-zinc-400 max-w-lg mx-auto mb-10 text-sm md:text-base leading-relaxed">High-grade cotton. Precision fit. The vault is now open for the streets of Nepal.</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#shop" class="bg-white text-black px-12 py-4 font-bold uppercase tracking-widest hover:bg-zinc-200 transition text-xs">Shop Now</a>
+                <a href="#payment" class="border border-white/30 text-white px-12 py-4 font-bold uppercase tracking-widest hover:bg-white/10 transition text-xs">Payment Info</a>
+            </div>
+        </div>
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+    </header>
+
+    <section id="shop" class="px-6 md:px-12 py-24 bg-zinc-950">
+        <div class="mb-16">
+            <h2 class="text-4xl font-bold uppercase tracking-tighter mb-2">Current Drops</h2>
+            <div class="h-1 w-20 bg-white"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="group">
+                <div class="aspect-[3/4] bg-zinc-900 overflow-hidden mb-6 vault-border relative">
+                    <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&q=80" alt="T-shirt" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-700 group-hover:scale-105">
+                </div>
+                <h3 class="font-bold text-lg uppercase mb-1">Over-Sized 'Vault' Tee</h3>
+                <p class="text-zinc-400 font-bold tracking-wider">Rs. 2,499</p>
+            </div>
+            <div class="group">
+                <div class="aspect-[3/4] bg-zinc-900 overflow-hidden mb-6 vault-border relative">
+                    <img src="https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&q=80" alt="T-shirt" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-700 group-hover:scale-105">
+                </div>
+                <h3 class="font-bold text-lg uppercase mb-1">Street Minimalist</h3>
+                <p class="text-zinc-400 font-bold tracking-wider">Rs. 1,850</p>
+            </div>
+            <div class="group">
+                <div class="aspect-[3/4] bg-zinc-900 overflow-hidden mb-6 vault-border relative">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGLzgZtzugD4tyVw--AtHKHe3qKlGBZgdHBg&s" alt="T-shirt" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-700 group-hover:scale-105">
+                </div>
+                <h3 class="font-bold text-lg uppercase mb-1">Heavy Cotton Black</h3>
+                <p class="text-zinc-400 font-bold tracking-wider">Rs. 2,100</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="payment" class="px-6 md:px-12 py-24 bg-white text-black">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-sm uppercase tracking-[0.4em] text-zinc-500 mb-4 font-bold">Secure Checkout</h2>
+                <h3 class="text-4xl md:text-5xl font-bold tracking-tighter">PAYMENT METHODS</h3>
+            </div>
+            <div class="vault-border border-zinc-200 p-8 md:p-12 flex flex-col md:flex-row items-center gap-10">
+                <div class="w-32 md:w-48">
+                    <div class="esewa-bg text-white font-bold p-4 rounded-xl text-center text-3xl italic">eSewa</div>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-bold mb-4 uppercase esewa-green">Instant Payment via eSewa</h4>
+                    <p class="text-zinc-600 mb-6">Send the total amount to the number below. Mention your name in the remarks.</p>
+                    <div class="bg-zinc-100 p-6 rounded-lg">
+                        <p class="text-xs uppercase text-zinc-500 mb-1">eSewa ID</p>
+                        <p class="text-2xl font-bold tracking-widest">9769385445</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="px-6 md:px-12 py-24 bg-black">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-5xl font-bold tracking-tighter uppercase mb-8">Let's Connect.</h2>
+                <div class="space-y-6">
+                    <div>
+                        <p class="text-[10px] uppercase tracking-[0.3em] text-zinc-600">Email Address</p>
+                        <a href="mailto:alson69xyz@gmail.com" class="text-xl hover:text-zinc-400 transition">alson69xyz@gmail.com</a>
+                    </div>
+                    <div>
+                        <p class="text-[10px] uppercase tracking-[0.3em] text-zinc-600">Phone</p>
+                        <a href="tel:9769385445" class="text-xl hover:text-zinc-400 transition">+977 9769385445</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-zinc-900/50 p-10 vault-border">
+                <h4 class="text-xl font-bold mb-6 uppercase tracking-tight">Social Archive</h4>
+                <p class="text-zinc-500 text-sm mb-8">Follow for new drop alerts.</p>
+                <div class="flex flex-wrap gap-6 font-bold text-[10px] uppercase tracking-widest">
+                    <a href="https://www.instagram.com/alson_adk16" target="_blank" class="hover:text-zinc-400 transition border-b border-zinc-700">Instagram</a>
+                    <a href="#" class="hover:text-zinc-400 transition">Facebook</a>
+                    <a href="#" class="hover:text-zinc-400 transition">TikTok</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-24 pt-8 border-t border-white/5 text-center text-[10px] text-zinc-700 uppercase tracking-[0.2em]">
+            <p>&copy; 2024 Alson Vault Nepal. All Rights Reserved.</p>
+        </div>
+    </section>
+
+</body>
+</html>
